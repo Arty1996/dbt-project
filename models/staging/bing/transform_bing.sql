@@ -5,6 +5,7 @@ SELECT
     CAST(NULL as int64) as `comments`,
     CAST(NULL as int64) as `engagements`,
     CAST(imps as int64) as `impressions`,
+    CAST(NULL as int64) as `installs`,
     CAST(NULL as int64) as `likes`,
     CAST(NULL as int64) as `link_clicks`,
     CAST(NULL as int64) as `post_click_conversions`,
