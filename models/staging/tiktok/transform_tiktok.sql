@@ -13,6 +13,8 @@ SELECT
     CAST(NULL as int64) as `posts`,
     CAST(purchase as int64) as `purchase`,
     CAST(registrations as int64) as `registrations`,
+    CAST(NULL as int64) as `revenue`,
+    CAST(NULL as int64) as `shares`,
     CAST(spend as int64) as `spend`,
     CAST((conversions + skan_conversion) as int64) as `total_conversions`,
     CAST(video_views as int64) as `video_views`,
